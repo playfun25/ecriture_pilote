@@ -1,0 +1,1 @@
+.\obj\stm32f10x.o: init\STM32F10x.s

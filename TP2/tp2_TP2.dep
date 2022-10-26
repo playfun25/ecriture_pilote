@@ -1,0 +1,22 @@
+Dependencies for Project 'tp2', Target 'TP2': (DO NOT MODIFY !)
+F (.\init\STM32F10x.s)(0x48D8986A)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "C:\Users\Teddy\Desktop\Ecriture de pilotes\Keil\Keil\ARM\RV31\INC"-I "C:\Users\Teddy\Desktop\Ecriture de pilotes\Keil\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"-I "C:\Users\Teddy\Desktop\Ecriture de pilotes\Keil\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include"-o .\obj\stm32f10x.o --depend .\obj\stm32f10x.d)
+F (.\main.c)(0x6358E087)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.-I "C:\Users\Teddy\Desktop\Ecriture de pilotes\Keil\Keil\ARM\RV31\INC"-I "C:\Users\Teddy\Desktop\Ecriture de pilotes\Keil\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"-I "C:\Users\Teddy\Desktop\Ecriture de pilotes\Keil\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include"-DSTM32F10X_MD_VL -o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Users\Teddy\Desktop\Ecriture de pilotes\TP2\types.h)(0x6358E118)
+I (C:\Users\Teddy\Desktop\Ecriture de pilotes\TP2\drv\uart-priv.h)(0x6358E419)
+I (C:\Users\Teddy\Desktop\Ecriture de pilotes\TP2\drv\uart.h)(0x6358E55C)
+I (C:\Users\Teddy\Desktop\Ecriture de pilotes\TP2\drv\gpio-priv.h)(0x6358E62B)
+I (C:\Users\Teddy\Desktop\Ecriture de pilotes\TP2\drv\gpio.h)(0x6358E5F2)
+I (C:\Users\Teddy\Desktop\Ecriture de pilotes\TP2\drv\rcc-priv.h)(0x6358E0A9)
+I (C:\Users\Teddy\Desktop\Ecriture de pilotes\TP2\drv\afio-priv.h)(0x6358E12F)
+F (.\drv\uart.c)(0x6358E44E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.-I "C:\Users\Teddy\Desktop\Ecriture de pilotes\Keil\Keil\ARM\RV31\INC"-I "C:\Users\Teddy\Desktop\Ecriture de pilotes\Keil\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"-I "C:\Users\Teddy\Desktop\Ecriture de pilotes\Keil\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include"-DSTM32F10X_MD_VL -o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (C:\Users\Teddy\Desktop\Ecriture de pilotes\TP2\drv\uart-priv.h)(0x6358E419)
+I (C:\Users\Teddy\Desktop\Ecriture de pilotes\TP2\drv\uart.h)(0x6358E55C)
+I (C:\Users\Teddy\Desktop\Ecriture de pilotes\TP2\types.h)(0x6358E118)
+F (.\drv\uart.h)(0x6358E55C)()
+F (.\drv\uart-priv.h)(0x6358E419)()
+F (.\drv\rcc-priv.h)(0x6358E0A9)()
+F (.\drv\afio-priv.h)(0x6358E12F)()
+F (.\drv\gpio.c)(0x6358E7B0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.-I "C:\Users\Teddy\Desktop\Ecriture de pilotes\Keil\Keil\ARM\RV31\INC"-I "C:\Users\Teddy\Desktop\Ecriture de pilotes\Keil\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"-I "C:\Users\Teddy\Desktop\Ecriture de pilotes\Keil\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include"-DSTM32F10X_MD_VL -o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (C:\Users\Teddy\Desktop\Ecriture de pilotes\TP2\drv\gpio-priv.h)(0x6358E62B)
+I (C:\Users\Teddy\Desktop\Ecriture de pilotes\TP2\drv\gpio.h)(0x6358E5F2)
+I (C:\Users\Teddy\Desktop\Ecriture de pilotes\TP2\types.h)(0x6358E118)

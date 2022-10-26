@@ -1,0 +1,34 @@
+Dependencies for Project 'tp1', Target 'Simulator': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x48D88A5A)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I g:\polytech\Keil\ARM\RV31\INC-I g:\polytech\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I g:\polytech\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include-o .\obj\stm32f10x.o --depend .\obj\stm32f10x.d)
+F (.\STM32_Init.c)(0x52A9DB1C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.-I g:\polytech\Keil\ARM\RV31\INC-I g:\polytech\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I g:\polytech\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include-DSTM32F10X_MD_VL -o .\obj\stm32_init.o --omf_browse .\obj\stm32_init.crf --depend .\obj\stm32_init.d)
+I (g:\polytech\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include\stm32f10x.h)(0x4F1E90AC)
+I (g:\polytech\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm3.h)(0x512C80D2)
+I (g:\polytech\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (g:\polytech\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BAB7D4)
+I (g:\polytech\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C80D2)
+I (g:\polytech\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include\system_stm32f10x.h)(0x4F1E90AC)
+I (G:\polytech\Keil\TP1\STM32_Reg.h)(0x527FEF80)
+F (.\main.c)(0x52B048B8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.-I g:\polytech\Keil\ARM\RV31\INC-I g:\polytech\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I g:\polytech\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include-DSTM32F10X_MD_VL -o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (g:\polytech\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include\stm32f10x.h)(0x4F1E90AC)
+I (g:\polytech\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm3.h)(0x512C80D2)
+I (g:\polytech\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (g:\polytech\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BAB7D4)
+I (g:\polytech\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C80D2)
+I (g:\polytech\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include\system_stm32f10x.h)(0x4F1E90AC)
+I (G:\polytech\Keil\TP1\STM32_Init.h)(0x48D88A2C)
+I (G:\polytech\Keil\TP1\types.h)(0x52B045AA)
+I (G:\polytech\Keil\TP1\drivers\gpio.h)(0x52A085B4)
+I (G:\polytech\Keil\TP1\drivers\gpio-priv.h)(0x52A085B2)
+I (G:\polytech\Keil\TP1\drivers\uart.h)(0x52B04622)
+I (G:\polytech\Keil\TP1\drivers\uart-priv.h)(0x52B0464E)
+F (.\drivers\gpio.c)(0x52B0482A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.-I g:\polytech\Keil\ARM\RV31\INC-I g:\polytech\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I g:\polytech\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include-DSTM32F10X_MD_VL -o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (G:\polytech\Keil\TP1\drivers\gpio.h)(0x52A085B4)
+I (G:\polytech\Keil\TP1\drivers\gpio-priv.h)(0x52A085B2)
+I (G:\polytech\Keil\TP1\types.h)(0x52B045AA)
+I (g:\polytech\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+F (.\drivers\uart.c)(0x52B04886)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.-I g:\polytech\Keil\ARM\RV31\INC-I g:\polytech\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I g:\polytech\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include-DSTM32F10X_MD_VL -o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (G:\polytech\Keil\TP1\drivers\uart.h)(0x52B04622)
+I (G:\polytech\Keil\TP1\drivers\uart-priv.h)(0x52B0464E)
+I (G:\polytech\Keil\TP1\types.h)(0x52B045AA)
+I (g:\polytech\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (G:\polytech\Keil\TP1\STM32_Init.h)(0x48D88A2C)
